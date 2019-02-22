@@ -1,0 +1,20 @@
+{
+    "name": "vscode-st2-snippets",
+    "displayName": "vscode-st2-snippets",
+    "description": "Stackstorm Snippets extension",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

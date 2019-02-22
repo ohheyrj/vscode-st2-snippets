@@ -1,0 +1,19 @@
+{
+    "St2 Pack Config File Template": {
+        "prefix": "!st2-config",
+        "body": [
+            "---",
+            "ref: ${1:PackReference}",
+            "name: ${2:PackName}",
+            "description: ${3:PackDescription}.",
+            "keywords:",
+            "    - ${4:Keyword1}",
+            "    - ${5:Keyword2}",
+            "version: 0.1.0",
+            "author: ${6:Author}",
+            "email: ${7:Email}"
+        ],
+        "desription": "Template pack.yaml file"
+
+    }
+}
