@@ -13,7 +13,16 @@
             "author: ${6:Author}",
             "email: ${7:Email}"
         ],
-        "desription": "Template pack.yaml file"
-
+        "desription": "Template pack.yaml file"},
+    "St2 Configuration Scheme Template Entry": {
+        "prefix": "!st2-cfgsch",
+        "body": [
+          "  ${1:ConfigItemName}:",
+          "    description: ${2:Description}",
+          "    type: ${3:ConfigType}",
+          "    required: ${4:ConfigRequired}",
+          "    secret: ${5:ConfigSecret}"
+        ],
+        "description": "Entry for config schema"
     }
 }
